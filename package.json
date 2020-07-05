@@ -1,0 +1,24 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "timer app on JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EugeneKopyl/Timer.git"
+  },
+  "keywords": [
+    "timer",
+    "js",
+    "web-app"
+  ],
+  "author": "Eugene Kopyl <eugen.kopyl@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EugeneKopyl/Timer/issues"
+  },
+  "homepage": "https://github.com/EugeneKopyl/Timer#readme"
+}
