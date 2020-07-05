@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "~normalize.css";
+@import "clock";
+@import "button";
+@import "listOfTimers";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif, Arial;
+  font-size: 12px;
+  background: #4f346b url("./bg.jpg");
+}
+
+#datetime {
+  padding: 3px;
+  border: 2px solid #a1a1a1;
+  font-weight: bold;
+  background: #b7b7b7;
+  outline: none;
+}
+
+.conteiner {
+  padding: 10px;
+  p {
+    padding: 5px;
+    color: white;
+  }
+}
+.inputTimerName {
+  margin-left: 15px;
+  padding: 4px;
+  border: 2px solid #a1a1a1;
+  font-size: 14px;
+  font-weight: bold;
+  background: #b7b7b7;
+  outline: none;
+}

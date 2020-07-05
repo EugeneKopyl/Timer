@@ -1,13 +1,31 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Timer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Timer</title>
 </head>
 <body>
-<h1>Hello this is timer app</h1>
+  <div id="currentTime"></div>
+  <div class="conteiner">
+    <h1>Hello this is timer app</h1>
+    <p class="text">Choose date and time to setup timer:</p>
+    <input id="datetime" type="datetime-local">
+    <input class="inputTimerName" type="text" placeholder="Timer name:">
+    <a href="#" class="btnCreate">Create timer</a>
+  </div>
+
+  <div class="listOfTimers">
+    <div class="timer">
+      <hr>
+      <p>Until:</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+      <p>LEFT:
+        <h1>2 years, 4 month, 15 days, 23 hours, 22 minutes, 32 secunds</h1>
+      </p>
+    </div>
+  </div>
 </body>
 </html>
