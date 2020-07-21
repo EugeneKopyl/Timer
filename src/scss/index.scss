@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import "~normalize.css";
 @import "clock";
-@import "button";
+@import "buttons";
 @import "listOfTimers";
+@import "timer";
 
 * {
   margin: 0;
@@ -26,17 +27,32 @@ body {
 
 .conteiner {
   padding: 10px;
+  color: white;
   p {
     padding: 5px;
     color: white;
   }
 }
-.inputTimerName {
-  margin-left: 15px;
+.inputTimerName, .inputTimerDate {
+  margin-left: 19px;
   padding: 4px;
   border: 2px solid #a1a1a1;
   font-size: 14px;
   font-weight: bold;
   background: #b7b7b7;
   outline: none;
+}
+
+@media (max-width: 768px) {
+  #formTimer {
+    display: flex;
+    flex-direction: column;
+    input {
+      margin: 10px 0;
+    }
+    button {
+      margin: 10px 0;
+    }
+  }
+
 }
